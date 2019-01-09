@@ -2,9 +2,11 @@
   &__filters {
     display: flex;
     padding-bottom: 15px;
+    justify-content: space-between;
   }
   &__filter {
     margin-right: 10px;
+    width: 20%;
     &:last-child {
       margin: 0;
     }

@@ -1,8 +1,10 @@
 .Filter__filters {
   display: flex;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  justify-content: space-between; }
 
 .Filter__filter {
-  margin-right: 10px; }
+  margin-right: 10px;
+  width: 20%; }
   .Filter__filter:last-child {
     margin: 0; }
