@@ -1,0 +1,37 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Home__header {
+    width: 80%;
+    height: 15vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+  .Home__user {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 14px;
+    width: 20%; }
+  .Home__map-with-form {
+    display: flex; }
+  .Home__map {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-right: 15px; }
+  .Home__no-result {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    color: #8d0000;
+    font-style: italic; }
+
+.Header__welcome {
+  padding-top: 50px; }

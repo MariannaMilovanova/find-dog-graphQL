@@ -1,0 +1,12 @@
+.Filter {
+  &__filters {
+    display: flex;
+    padding-bottom: 15px;
+  }
+  &__filter {
+    margin-right: 10px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

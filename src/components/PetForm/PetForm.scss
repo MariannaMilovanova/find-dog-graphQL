@@ -1,0 +1,74 @@
+.PetForm {
+  &__dropdown {
+    width: 300px;
+    padding-top: 10px;
+    &--has-danger {
+      color: red;
+    }
+  }
+  &__label {
+    margin: 0;
+  }
+  &__phone-input {
+    width: 100%;
+    height: 38px;
+    background-color: #fff;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+    padding-left: 5px;
+  }
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  &__upload {
+    height: 40px;
+  }
+  &__upload-label {
+    background-color: #308939;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  &__animal-picture {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__picture {
+    margin-left: -130px;
+  }
+}
+[type=file] {
+  position: absolute;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+input,
+[type=file] + label {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  text-align: left;
+  padding: 10px;
+  width: 150px;
+  margin: 0;
+  left: 0;
+  position: relative;
+}
+[type=file] + label {
+  text-align: center;
+  left: 7.35em;
+  top: 0.5em;
+  /* Decorative */
+}
+[type=file] + label:hover {
+  background: #3399ff;
+}

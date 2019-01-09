@@ -1,0 +1,33 @@
+.Placeholder {
+  width: 300px;
+  margin-top: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(154,205,50, 0.3);
+  border-radius: 5px;
+  height: 70vh;
+  padding: 30px 20px 20px;
+  line-height: 30px;
+  &__report {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  &__btn {
+    background-color: #737373;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 15px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+  }
+}

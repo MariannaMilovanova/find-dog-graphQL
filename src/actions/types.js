@@ -1,0 +1,14 @@
+export const LOGIN_GET_USER_DATA = 'LOGIN_GET_USER_DATA';
+export const LOG_OUT = 'LOG_OUT';
+export const ADD_TEMP_MARKER = 'ADD_TEMP_MARKER';
+export const ADD_PET = 'ADD_PET';
+export const UPLOAD_PICTURE = 'UPLOAD_PICTURE';
+export const GET_SAVED_MARKERS = 'GET_SAVED_MARKERS';
+export const SELECT_MARKER = 'SELECT_MARKER';
+export const UPDATE_DATA = 'UPDATE_DATA';
+export const CHANGE_PHOTO = 'CHANGE_PHOTO';
+export const DELETE_MARKER = 'DELETE_MARKER';
+export const CANCEL_ADD_PET = 'CANCEL_ADD_PET';
+export const FILTER_MARKERS = 'FILTER_MARKERS';
+export const ClEAR_FILTERS = 'ClEAR_FILTERS';
+export const SELECT_RADIUS = 'SELECT_RADIUS';

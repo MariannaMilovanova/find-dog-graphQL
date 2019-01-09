@@ -1,0 +1,50 @@
+.PetInfo {
+  min-width: 300px;
+  padding-top: 25px;
+  &__picture {
+    display: flex;
+    justify-content: center;
+  }
+  &__info {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  &__info-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  &__label {
+    margin-right: 15px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  &__value {
+    padding-left: 120px;
+  }
+  &__edit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  &__edit-btn, &__solved {
+    background-color: #737373;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 15px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  &__solved{
+    width: 220px;
+    background-color: #297347;
+  }
+}

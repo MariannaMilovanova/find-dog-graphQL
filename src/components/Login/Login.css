@@ -1,0 +1,16 @@
+.UserData {
+  text-align: center; }
+  .UserData i.huge.icon {
+    font-size: 80px !important; }
+
+.Login button {
+  padding: 5px !important;
+  width: 80px !important;
+  margin: 5px !important;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: #ea9a9a; }
+
+.Login__none {
+  display: none; }
